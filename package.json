@@ -1,0 +1,38 @@
+{
+  "name": "@mobile-reality/stable-cadence-migrator",
+  "version": "0.0.1",
+  "description": "Automated migration to stable-cadence (Cadence 1.0)",
+  "author": "Mobile Reality <biuro@mobilereality.pl> (https://mobilereality.pl)",
+  "contributors": [
+    {
+      "name": "@NtTestAlert",
+      "url": "https://github.com/NtTestAlert"
+    }
+  ],
+  "keywords": [
+    "cadence",
+    "onflow",
+    "flow",
+    "mobilereality",
+    "mobile reality"
+  ],
+  "repository": "https://github.com/MobileReality/stable-cadence-migrator",
+  "bugs": {
+    "url": "https://github.com/MobileReality/stable-cadence-migrator/issues"
+  },
+  "homepage": "https://github.com/MobileReality/stable-cadence-migrator/#readme",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "license": "MIT",
+  "scripts": {
+    "updater": "node ./updater.js"
+  },
+  "dependencies": {
+    "@onflow/cadence-parser": "^0.42.0",
+    "fs-extra": "^11.2.0",
+    "glob": "^10.3.10",
+    "log4js": "^6.9.1",
+    "prettier": "^3.2.5"
+  }
+}
