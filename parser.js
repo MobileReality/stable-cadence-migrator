@@ -41,8 +41,6 @@ function filterVarsWithScope(pos, vars) {
   );
 }
 
-log(wasmPath);
-
 const parser = readFile(wasmPath).then((wasm) => CadenceParser.create(wasm));
 
 /**
